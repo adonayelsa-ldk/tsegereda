@@ -1,0 +1,21 @@
+{
+  "name": "tsgereda-hotel",
+  "version": "1.0.0",
+  "description": "tsgereda (Red Rose) Hotel — a historic heritage hotel in Piassa, Addis Ababa. Full-stack Express backend with JSON-file database, email, reservations, reviews, and gallery uploads.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "multer": "^2.0.1",
+    "nodemailer": "^6.9.14",
+    "dotenv": "^16.4.5"
+  }
+}

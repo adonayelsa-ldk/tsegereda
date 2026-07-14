@@ -1,0 +1,982 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tsgereda Hotel â€” A Living Memory of Piassa</title>
+  <meta name="description" content="tsgereda (Red Rose) Hotel â€” a historic heritage hotel in the heart of Piassa, Addis Ababa. Authentic Ethiopian cuisine, family legacy since 1954, and a living memory of old Addis Ababa." />
+  <meta name="theme-color" content="#F7F2EA" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="tsgereda Hotel â€” A Living Memory of Piassa" />
+  <meta property="og:description" content="A historic heritage hotel in the heart of Piassa, Addis Ababa. Experience authentic Ethiopian hospitality and cuisine." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=80" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="tsgereda Hotel â€” A Living Memory of Piassa" />
+  <meta name="twitter:description" content="A historic heritage hotel in the heart of Piassa, Addis Ababa." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=80" />
+
+  <!-- Favicon: Red Rose SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ðŸŒ¹</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div class="page-loader" id="pageLoader" aria-hidden="true">
+    <div class="loader-ring"></div>
+  </div>
+
+  <!-- Skip link -->
+  <a href="#hero" class="skip-link">Skip to content</a>
+
+  <!-- Navigation -->
+  <header class="hab-nav" id="habNav">
+    <div class="hab-nav__inner">
+      <a href="#hero" class="hab-nav__brand" aria-label="tsgereda Hotel â€” home">
+        <span class="hab-nav__brand-mark">
+          <svg width="20" height="20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="48" fill="#9E1B2C"/>
+            <path d="M50 25 C45 35, 35 40, 50 55 C65 40, 55 35, 50 25Z" fill="#D4AF37"/>
+            <circle cx="50" cy="50" r="6" fill="#D4AF37"/>
+            <path d="M50 55 L50 75" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+            <path d="M45 65 L50 70 L55 65" stroke="#D4AF37" stroke-width="2" fill="none"/>
+          </svg>
+        </span>
+        <span class="hab-nav__brand-text">tsgereda Hotel</span>
+      </a>
+      <nav class="hab-nav__links" aria-label="Primary" id="habNavLinks">
+        <a href="#story">Our Story</a>
+        <a href="#history">History</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#family">Family</a>
+        <a href="#dining">Dining</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <button class="hab-nav__toggle" id="habNavToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+  <!-- HERO -->
+    <section class="hab-hero" id="hero">
+      <div class="hab-hero__bg" style="background-image: url('assets/images/front.jpg');" aria-hidden="true"></div>
+      
+      <!-- Rose Petals Container -->
+      <div class="hab-petals" id="habPetals" aria-hidden="true"></div>
+
+      <!-- Centered Logo Overlay -->
+      <div class="hab-hero__logo-overlay" id="habHeroLogo">
+        <div class="hab-hero__logo-mark">
+          <svg width="70" height="70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="48" fill="#9E1B2C"/>
+            <path d="M50 25 C45 35, 35 40, 50 55 C65 40, 55 35, 50 25Z" fill="#D4AF37"/>
+            <circle cx="50" cy="50" r="6" fill="#D4AF37"/>
+            <path d="M50 55 L50 75" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+            <path d="M45 65 L50 70 L55 65" stroke="#D4AF37" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <div class="hab-hero__logo-text">tsgereda</div>
+      </div>
+
+      <div class="hab-container hab-hero__inner">
+        <div class="hab-hero__content">
+          <p class="hab-eyebrow hab-reveal">Est. 1954 E.C. · Piassa, Addis Ababa</p>
+          <h1 class="hab-hero__title hab-reveal" data-delay="120">
+            tsgereda <span class="accent">(Red Rose)</span><br />Hotel
+          </h1>
+          <p class="hab-hero__sub hab-reveal" data-delay="240">
+            A Living Memory of Piassa. Step into a piece of Addis Ababa's history — where heritage, hospitality, and authentic Ethiopian cuisine meet.
+          </p>
+          <div class="hab-hero__cta hab-reveal" data-delay="360">
+            <a href="#story" class="hab-btn hab-btn--primary">Discover Our Story</a>
+            <a href="#dining" class="hab-btn hab-btn--ghost">Taste Our Heritage</a>
+          </div>
+        </div>
+      </div>
+      <a href="#story" class="scroll-hint" aria-label="Scroll to story">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Minimized Scroll Logo -->
+    <div class="hab-scroll-logo" id="habScrollLogo">
+      <div class="hab-scroll-logo__mark">
+        <svg width="16" height="16" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="48" fill="#9E1B2C"/>
+          <path d="M50 25 C45 35, 35 40, 50 55 C65 40, 55 35, 50 25Z" fill="#D4AF37"/>
+          <circle cx="50" cy="50" r="6" fill="#D4AF37"/>
+        </svg>
+      </div>
+      <span class="hab-scroll-logo__text">tsgereda</span>
+    </div>
+
+    <!-- Divider -->
+    <div class="hab-divider hab-divider--thick" aria-hidden="true"></div>
+
+    <!-- OUR STORY -->
+    <section class="hab-section" id="story">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Our Story</p>
+          <h2 class="hab-section__title">More than a hotel. A piece of Piassa.</h2>
+        </header>
+        <div class="hab-story-grid hab-reveal" data-delay="80">
+          <div class="hab-card">
+            <h3 class="hab-card__title">The Foundation</h3>
+            <p class="hab-card__desc">
+              Founded in 1954 E.C. by Eyasu Asfaw and his wife Asefwash Kinfu, tsgereda Hotel began as a vision to create a welcoming sanctuary in the heart of Piassa â€” blending mid-century Ethiopian-Italian fusion architecture with the warmth of Habesha hospitality.
+            </p>
+            <p class="hab-card__desc">
+              The name "tsgereda" or "Red Rose" came from the abundance of red flowers that once grew around the property, symbolizing love, heritage, and the blooming spirit of Addis Ababa.
+            </p>
+          </div>
+          <div class="hab-card">
+            <h3 class="hab-card__title">The Modern Era</h3>
+            <p class="hab-card__desc">
+              After the passing of Eyasu Asfaw and Asefwash Kinfu, management was transferred to Tadesse Eyasu, who continues preserving the family's legacy and the history of this beloved establishment.
+            </p>
+            <p class="hab-card__desc">
+              Today, tsgereda Hotel stands as a testament to generational leadership â€” preserving its heritage while embracing the future with new ventures like the upcoming VIP Sky Lounge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider" aria-hidden="true">
+      <span class="hab-divider__line"></span>
+      <span class="hab-divider__pattern">
+        <span class="hab-divider__diamond"></span>
+        <span class="hab-divider__cross"></span>
+        <span class="hab-divider__diamond"></span>
+      </span>
+      <span class="hab-divider__line"></span>
+    </div>
+
+    <!-- HISTORICAL TIMELINE -->
+    <section class="hab-section" id="history">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Historical Timeline</p>
+          <h2 class="hab-section__title">A journey through time.</h2>
+        </header>
+        <div class="hab-timeline hab-reveal" data-delay="80">
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker hab-timeline__marker--lion" title="Lion of Judah">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l2 12h16l2-12L12 2z" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"/>
+                <circle cx="12" cy="13" r="2" fill="#2C2520"/>
+                <path d="M8 7h8M10 5h4" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">Before 1935</span>
+              <h3 class="hab-timeline__title">The Residence</h3>
+              <p class="hab-timeline__desc">The building served as the residence of a small Ethiopian government official — a quiet home in the growing neighborhood of Piassa.</p>
+            </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker hab-timeline__marker--italian" title="Italian Flag"></div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">1935 – 1941</span>
+              <h3 class="hab-timeline__title">Italian Occupation</h3>
+              <p class="hab-timeline__desc">During the Italian occupation, the property was occupied by Italian authorities and used as a library — a quiet witness to a turbulent period in Ethiopian history.</p>
+            </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker hab-timeline__marker--ethiopian" title="Ethiopian Flag"></div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">1941</span>
+              <h3 class="hab-timeline__title">Liberation</h3>
+              <p class="hab-timeline__desc">After Ethiopia's victory, the property returned to Ethiopian ownership — ready for a new chapter.</p>
+            </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker hab-timeline__marker--founders" title="Founders">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="9" cy="7" r="3" fill="#fff"/>
+                <circle cx="15" cy="7" r="3" fill="#fff"/>
+                <path d="M3 21c0-3.31 2.69-6 6-6s6 2.69 6 6" stroke="#fff" stroke-width="1.5" fill="none"/>
+                <path d="M15 21c0-3.31 2.69-6 6-6s6 2.69 6 6" stroke="#fff" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">1954 E.C.</span>
+              <h3 class="hab-timeline__title">tsgereda is Born</h3>
+              <p class="hab-timeline__desc">Acquired by Eyasu Asfaw and Asefwash Kinfu, it became one of the best-known bars and restaurants in Piassa. The red roses that bloomed around the property gave it its name — tsgereda, the Red Rose.</p>
+            </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker" title="Family Legacy">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21s-6-4.35-6-10a6 6 0 0 1 12 0c0 5.65-6 10-6 10z" fill="#9E1B2C"/>
+                <circle cx="12" cy="11" r="2.5" fill="#D4AF37"/>
+              </svg>
+            </div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">Today</span>
+              <h3 class="hab-timeline__title">Family Legacy Continues</h3>
+              <p class="hab-timeline__desc">Now managed by Tadesse Eyasu, tsgereda Hotel continues to welcome guests with the same warmth and hospitality that made it a Piassa landmark.</p>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker"></div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">1935 â€“ 1941</span>
+              <h3 class="hab-timeline__title">Italian Occupation</h3>
+              <p class="hab-timeline__desc">During the Italian occupation, the property was occupied by Italian authorities and used as a library â€” a quiet witness to a turbulent period in Ethiopian history.</p>
+            </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker"></div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">1941</span>
+              <h3 class="hab-timeline__title">Liberation</h3>
+              <p class="hab-timeline__desc">After Ethiopia's victory, the property returned to Ethiopian ownership â€” ready for a new chapter.</p>
+            </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker"></div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">1954 E.C.</span>
+              <h3 class="hab-timeline__title">tsgereda is Born</h3>
+              <p class="hab-timeline__desc">Acquired by Eyasu Asfaw and Asefwash Kinfu, it became one of the best-known bars and restaurants in Piassa. The red roses that bloomed around the property gave it its name â€” tsgereda, the Red Rose.</p>
+            </div>
+          </div>
+          <div class="hab-timeline__item">
+            <div class="hab-timeline__marker"></div>
+            <div class="hab-timeline__content">
+              <span class="hab-timeline__year">Today</span>
+              <h3 class="hab-timeline__title">Family Legacy Continues</h3>
+              <p class="hab-timeline__desc">Now managed by Tadesse Eyasu, tsgereda Hotel continues to welcome guests with the same warmth and hospitality that made it a Piassa landmark.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider" aria-hidden="true">
+      <span class="hab-divider__line"></span>
+      <span class="hab-divider__pattern">
+        <span class="hab-divider__diamond"></span>
+        <span class="hab-divider__cross"></span>
+        <span class="hab-divider__diamond"></span>
+      </span>
+      <span class="hab-divider__line"></span>
+    </div>
+
+    <!-- HISTORICAL IMPORTANCE -->
+    <section class="hab-section" id="importance">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Historical Importance</p>
+          <h2 class="hab-section__title">Why tsgereda matters.</h2>
+        </header>
+        <div class="hab-importance-grid hab-reveal" data-delay="80">
+          <div class="hab-importance-item">
+            <span class="hab-importance-icon">ðŸ›ï¸</span>
+            <h3 class="hab-importance-title">Heart of Piassa</h3>
+            <p class="hab-importance-desc">Standing in the historic center of Addis Ababa's most storied neighborhood.</p>
+          </div>
+          <div class="hab-importance-item">
+            <span class="hab-importance-icon">ðŸ¨</span>
+            <h3 class="hab-importance-title">Historic Neighbor</h3>
+            <p class="hab-importance-desc">Located beside one of Ethiopia's oldest hotels â€” part of a living historical corridor.</p>
+          </div>
+          <div class="hab-importance-item">
+            <span class="hab-importance-icon">ðŸ“</span>
+            <h3 class="hab-importance-title">800 Square Meters</h3>
+            <p class="hab-importance-desc">A grand property with spacious rooms, a beautiful courtyard, and parking for 15+ vehicles.</p>
+          </div>
+          <div class="hab-importance-item">
+            <span class="hab-importance-icon">ðŸ—ï¸</span>
+            <h3 class="hab-importance-title">Architectural Legacy</h3>
+            <p class="hab-importance-desc">Designed by a renowned architect of its era, featuring stone details, wooden elements, and traditional craftsmanship.</p>
+          </div>
+          <div class="hab-importance-item">
+            <span class="hab-importance-icon">ðŸ‘¨â€ðŸ‘©â€ðŸ‘§â€ðŸ‘¦</span>
+            <h3 class="hab-importance-title">Family Home</h3>
+            <p class="hab-importance-desc">Home to multiple generations â€” a living archive of family memories and Addis Ababa history.</p>
+          </div>
+          <div class="hab-importance-item">
+            <span class="hab-importance-icon">ðŸŒ¿</span>
+            <h3 class="hab-importance-title">Quiet Atmosphere</h3>
+            <p class="hab-importance-desc">Remembered by many who grew up around Piassa for its peaceful ambiance and cool mountain air.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider hab-divider--thick" aria-hidden="true"></div>
+
+    <!-- ARCHITECTURE -->
+    <section class="hab-section" id="architecture">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Architecture</p>
+          <h2 class="hab-section__title">A museum of stone and memory.</h2>
+        </header>
+        <div class="hab-architecture-grid hab-reveal" data-delay="80">
+          <div class="hab-arch-item hab-arch-item--tall">
+            <div class="hab-arch-media" style="background-image: url('assets/images/front.jpg'); background-size: cover; background-position: center;">Exterior View</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">The Palace Facade</h3>
+              <p class="hab-arch-desc">Mid-century Ethiopian-Italian fusion stone architecture with tall, symmetrical windows and a grand 800m² courtyard.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/back.jpg'); background-size: cover; background-position: center;">Courtyard</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">The Courtyard</h3>
+              <p class="hab-arch-desc">Brick-paved parking area surrounded by lush tsgereda red rose bushes — the heart of the property.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/side.jpg'); background-size: cover; background-position: center;">Windows & Doors</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Historic Windows</h3>
+              <p class="hab-arch-desc">Tall symmetrical windows that have watched over Piassa for generations, framing stories of the past.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item hab-arch-item--tall">
+            <div class="hab-arch-media" style="background-image: url('assets/images/sii.jpg'); background-size: cover; background-position: center;">Interior Details</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Wooden Elements</h3>
+              <p class="hab-arch-desc">Traditional Ethiopian wooden furniture and architectural details — handcrafted with the care of a bygone era.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/new.jpg'); background-size: cover; background-position: center;">Staircase</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">The Staircase</h3>
+              <p class="hab-arch-desc">Wide wooden stairs that have carried countless guests, family members, and stories through the decades.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/front image1.jpg'); background-size: cover; background-position: center;">Front Entrance</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Front Entrance</h3>
+              <p class="hab-arch-desc">The grand entryway that has welcomed guests to tsgereda since 1954 E.C.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/new 2.jpg'); background-size: cover; background-position: center;">Additional Views</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Additional Views</h3>
+              <p class="hab-arch-desc">More perspectives of the historic architecture and surrounding Piassa neighborhood.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/sied 2.jpg'); background-size: cover; background-position: center;">Side Details</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Side Details</h3>
+              <p class="hab-arch-desc">Close-up views of the traditional stone work and architectural details.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/back 2.jpg'); background-size: cover; background-position: center;">Rear View</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Rear View</h3>
+              <p class="hab-arch-desc">The back facade showing the traditional layout and garden areas.</p>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/back.jpg'); background-size: cover; background-position: center;">Courtyard</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">The Courtyard</h3>
+              <p class="hab-arch-desc">Brick-paved parking area surrounded by lush Tigereda red rose bushes — the heart of the property.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/side.jpg'); background-size: cover; background-position: center;">Windows & Doors</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Historic Windows</h3>
+              <p class="hab-arch-desc">Tall symmetrical windows that have watched over Piassa for generations, framing stories of the past.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item hab-arch-item--tall">
+            <div class="hab-arch-media" style="background-image: url('assets/images/sii.jpg'); background-size: cover; background-position: center;">Interior Details</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">Wooden Elements</h3>
+              <p class="hab-arch-desc">Traditional Ethiopian wooden furniture and architectural details — handcrafted with the care of a bygone era.</p>
+            </div>
+          </div>
+          <div class="hab-arch-item">
+            <div class="hab-arch-media" style="background-image: url('assets/images/new.jpg'); background-size: cover; background-position: center;">Staircase</div>
+            <div class="hab-arch-info">
+              <h3 class="hab-arch-title">The Staircase</h3>
+              <p class="hab-arch-desc">Wide wooden stairs that have carried countless guests, family members, and stories through the decades.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider" aria-hidden="true">
+      <span class="hab-divider__line"></span>
+      <span class="hab-divider__pattern">
+        <span class="hab-divider__diamond"></span>
+        <span class="hab-divider__cross"></span>
+        <span class="hab-divider__diamond"></span>
+      </span>
+      <span class="hab-divider__line"></span>
+    </div>
+
+    <!-- FAMILY HERITAGE -->
+    <section class="hab-section" id="family">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Family Heritage</p>
+          <h2 class="hab-section__title">The family behind the legacy.</h2>
+        </header>
+        <div class="hab-family-grid hab-reveal" data-delay="80">
+          <div class="hab-family-card">
+            <div class="hab-family-avatar">EA</div>
+            <h3 class="hab-family-name">Eyasu Asfaw</h3>
+            <p class="hab-family-role">Founder Â· 1954 E.C.</p>
+            <p class="hab-family-desc">The visionary who acquired the property and transformed it into one of Piassa's most beloved establishments.</p>
+          </div>
+          <div class="hab-family-card">
+            <div class="hab-family-avatar">AK</div>
+            <h3 class="hab-family-name">Asefwash Kinfu</h3>
+            <p class="hab-family-role">Co-Founder Â· 1954 E.C.</p>
+            <p class="hab-family-desc">The warmth and hospitality that defined tsgereda â€” a true matriarch of Piassa hospitality.</p>
+          </div>
+          <div class="hab-family-card">
+            <div class="hab-family-avatar">TE</div>
+            <h3 class="hab-family-name">Tadesse Eyasu</h3>
+            <p class="hab-family-role">Current Steward</p>
+            <p class="hab-family-desc">Carrying forward the family legacy, preserving the history and traditions that make tsgereda unique.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider" aria-hidden="true">
+      <span class="hab-divider__line"></span>
+      <span class="hab-divider__pattern">
+        <span class="hab-divider__diamond"></span>
+        <span class="hab-divider__cross"></span>
+        <span class="hab-divider__diamond"></span>
+      </span>
+      <span class="hab-divider__line"></span>
+    </div>
+
+    <!-- DINING -->
+    <section class="hab-section" id="dining">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Dining</p>
+          <h2 class="hab-section__title">An authentic Habesha feast.</h2>
+        </header>
+        <div class="hab-dining-grid hab-reveal" data-delay="80">
+          <div class="hab-dining-card hab-dining-card--featured">
+            <div class="hab-dining-media" style="background-image: url('assets/images/new.jpg'); background-size: cover; background-position: center;">Key Wot</div>
+            <div class="hab-dining-body">
+              <span class="hab-dining-badge">Signature</span>
+              <h3 class="hab-dining-title">Key Wot</h3>
+              <p class="hab-dining-desc">Rich, glossy spicy beef stew — the fiery heart of Ethiopian cuisine. Slow-cooked with berbere, onions, and traditional spices.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card hab-dining-card--featured">
+            <div class="hab-dining-media" style="background-image: url('assets/images/front.jpg'); background-size: cover; background-position: center;">Kikil</div>
+            <div class="hab-dining-body">
+              <span class="hab-dining-badge">Famous</span>
+              <h3 class="hab-dining-title">Kikil Broth</h3>
+              <p class="hab-dining-desc">Golden slow-cooked lamb broth with green chilies — our most celebrated dish. Warming, fragrant, and deeply traditional.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card hab-dining-card--featured">
+            <div class="hab-dining-media" style="background-image: url('assets/images/side.jpg'); background-size: cover; background-position: center;">Shiro Tegabino</div>
+            <div class="hab-dining-body">
+              <span class="hab-dining-badge">Heritage</span>
+              <h3 class="hab-dining-title">Shiro Tegabino</h3>
+              <p class="hab-dining-desc">Deeply spiced chickpea stew bubbling hot in a traditional black clay pot — a dish that tells the story of Ethiopian home cooking.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('assets/images/back.jpg'); background-size: cover; background-position: center;">Tibs Firfir</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Tibs Firfir</h3>
+              <p class="hab-dining-desc">Texturized folds of spiced beef atop fluffy injera — a breakfast favorite reimagined.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('assets/images/new 2.jpg'); background-size: cover; background-position: center;">Shiro</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Shiro</h3>
+              <p class="hab-dining-desc">Creamy ground chickpea stew, subtly spiced and incredibly comforting.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('assets/images/sii.jpg'); background-size: cover; background-position: center;">Beyaynet</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Beyaynet</h3>
+              <p class="hab-dining-desc">A vibrant multi-colored vegetarian assortment on fresh, spongy dark-grain injera.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('assets/images/sied 2.jpg'); background-size: cover; background-position: center;">Pasta</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Classic Pasta</h3>
+              <p class="hab-dining-desc">A beloved staple — simple, hearty, and prepared with the same care as every dish at tsgereda.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('assets/images/front image1.jpg'); background-size: cover; background-position: center;">Eggs</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Breakfast Eggs</h3>
+              <p class="hab-dining-desc">Fresh eggs fried to perfection — the start of a traditional Habesha breakfast.</p>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class="hab-dining-card hab-dining-card--featured">
+            <div class="hab-dining-media" style="background-image: url('https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80'); background-size: cover; background-position: center;">Kikil</div>
+            <div class="hab-dining-body">
+              <span class="hab-dining-badge">Famous</span>
+              <h3 class="hab-dining-title">Kikil Broth</h3>
+              <p class="hab-dining-desc">Golden slow-cooked lamb broth with green chilies â€” our most celebrated dish. Warming, fragrant, and deeply traditional.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card hab-dining-card--featured">
+            <div class="hab-dining-media" style="background-image: url('https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80'); background-size: cover; background-position: center;">Shiro Tegabino</div>
+            <div class="hab-dining-body">
+              <span class="hab-dining-badge">Heritage</span>
+              <h3 class="hab-dining-title">Shiro Tegabino</h3>
+              <p class="hab-dining-desc">Deeply spiced chickpea stew bubbling hot in a traditional black clay pot â€” a dish that tells the story of Ethiopian home cooking.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80'); background-size: cover; background-position: center;">Tibs Firfir</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Tibs Firfir</h3>
+              <p class="hab-dining-desc">Texturized folds of spiced beef atop fluffy injera â€” a breakfast favorite reimagined.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80'); background-size: cover; background-position: center;">Shiro</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Shiro</h3>
+              <p class="hab-dining-desc">Creamy ground chickpea stew, subtly spiced and incredibly comforting.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80'); background-size: cover; background-position: center;">Beyaynet</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Beyaynet</h3>
+              <p class="hab-dining-desc">A vibrant multi-colored vegetarian assortment on fresh, spongy dark-grain injera.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('https://images.unsplash.com/photo-1473093295043-ef0f61f91757?w=800&q=80'); background-size: cover; background-position: center;">Pasta</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Classic Pasta</h3>
+              <p class="hab-dining-desc">A beloved staple â€” simple, hearty, and prepared with the same care as every dish at tsgereda.</p>
+            </div>
+          </div>
+          <div class="hab-dining-card">
+            <div class="hab-dining-media" style="background-image: url('https://images.unsplash.com/photo-1525351484163-75262b4b95f9?w=800&q=80'); background-size: cover; background-position: center;">Eggs</div>
+            <div class="hab-dining-body">
+              <h3 class="hab-dining-title">Breakfast Eggs</h3>
+              <p class="hab-dining-desc">Fresh eggs fried to perfection â€” the start of a traditional Habesha breakfast.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider hab-divider--thick" aria-hidden="true"></div>
+
+    <!-- FACILITIES -->
+    <section class="hab-section" id="facilities">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Facilities</p>
+          <h2 class="hab-section__title">Spaces for every moment.</h2>
+        </header>
+        <div class="hab-facilities-grid hab-reveal" data-delay="80">
+          <div class="hab-facility-card">
+            <div class="hab-facility-icon">ðŸ½ï¸</div>
+            <h3 class="hab-facility-title">Main Restaurant</h3>
+            <p class="hab-facility-desc">Our flagship dining room serving authentic Habesha cuisine in a warm, historic setting.</p>
+          </div>
+          <div class="hab-facility-card">
+            <div class="hab-facility-icon">ðŸ‘‘</div>
+            <h3 class="hab-facility-title">Palace Restaurant</h3>
+            <p class="hab-facility-desc">An elegant dining experience in a space that echoes the grandeur of old Addis Ababa.</p>
+          </div>
+          <div class="hab-facility-card">
+            <div class="hab-facility-icon">ðŸ¸</div>
+            <h3 class="hab-facility-title">Restaurant & Bar</h3>
+            <p class="hab-facility-desc">A relaxed atmosphere for drinks, conversation, and light meals throughout the day.</p>
+          </div>
+          <div class="hab-facility-card hab-facility-card--new">
+            <div class="hab-facility-icon">ðŸ—ï¸</div>
+            <h3 class="hab-facility-title">Traditional Restaurant</h3>
+            <p class="hab-facility-desc">Currently under construction â€” a new traditional dining experience coming soon.</p>
+            <span class="hab-facility-badge">Coming Soon</span>
+          </div>
+          <div class="hab-facility-card hab-facility-card--new">
+            <div class="hab-facility-icon">ðŸŒ…</div>
+            <h3 class="hab-facility-title">VIP Sky Lounge</h3>
+            <p class="hab-facility-desc">Panoramic views of Piassa and the Eliana Hotel at sunset â€” an exclusive experience under construction.</p>
+            <span class="hab-facility-badge">Coming Soon</span>
+          </div>
+          <div class="hab-facility-card">
+            <div class="hab-facility-icon">ðŸŽ®</div>
+            <h3 class="hab-facility-title">Game Zone</h3>
+            <p class="hab-facility-desc">A fun space with two pool tables and games for guests to enjoy.</p>
+          </div>
+          <div class="hab-facility-card">
+            <div class="hab-facility-icon">ðŸš—</div>
+            <h3 class="hab-facility-title">Parking</h3>
+            <p class="hab-facility-desc">Spacious parking area accommodating 15+ vehicles â€” convenient for all our guests.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider" aria-hidden="true">
+      <span class="hab-divider__line"></span>
+      <span class="hab-divider__pattern">
+        <span class="hab-divider__diamond"></span>
+        <span class="hab-divider__cross"></span>
+        <span class="hab-divider__diamond"></span>
+      </span>
+      <span class="hab-divider__line"></span>
+    </div>
+
+    <!-- GALLERY -->
+    <section class="hab-section" id="gallery">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Gallery</p>
+          <h2 class="hab-section__title">Moments & memories.</h2>
+        </header>
+        <div class="hab-gallery-filters hab-reveal" data-delay="60">
+          <button class="hab-gallery-filter hab-gallery-filter--active" data-filter="all">All</button>
+          <button class="hab-gallery-filter" data-filter="building">Building</button>
+          <button class="hab-gallery-filter" data-filter="family">Family</button>
+          <button class="hab-gallery-filter" data-filter="food">Food</button>
+          <button class="hab-gallery-filter" data-filter="construction">Construction</button>
+          <button class="hab-gallery-filter" data-filter="piassa">Piassa</button>
+        </div>
+        <div class="hab-gallery-grid hab-reveal" data-delay="120" id="habGalleryGrid">
+          <div class="hab-gallery-item" data-category="building">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/front.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">The Palace Facade</span>
+              <span class="hab-gallery-desc">Mid-century Ethiopian-Italian fusion architecture</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="building">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/back.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">The Courtyard</span>
+              <span class="hab-gallery-desc">Brick-paved with red rose bushes</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="building">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/side.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">Side View</span>
+              <span class="hab-gallery-desc">Historic stone walls and traditional architecture</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="food">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/new.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">Dining Area</span>
+              <span class="hab-gallery-desc">Traditional Habesha dining experience</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="building">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/front image1.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">Front Entrance</span>
+              <span class="hab-gallery-desc">The historic entrance to tsgereda</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="building">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/sii.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">Interior Spaces</span>
+              <span class="hab-gallery-desc">Traditional wooden details and craftsmanship</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="piassa">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/new 2.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">Historic Piassa</span>
+              <span class="hab-gallery-desc">The streets that remember</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="construction">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/sied 2.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">Sky Lounge</span>
+              <span class="hab-gallery-desc">Panoramic views under construction</span>
+            </div>
+          </div>
+          <div class="hab-gallery-item" data-category="building">
+            <div class="hab-gallery-media" style="background-image: url('assets/images/back 2.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="hab-gallery-overlay">
+              <span class="hab-gallery-title">Rear View</span>
+              <span class="hab-gallery-desc">The historic rear facade</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider" aria-hidden="true">
+      <span class="hab-divider__line"></span>
+      <span class="hab-divider__pattern">
+        <span class="hab-divider__diamond"></span>
+        <span class="hab-divider__cross"></span>
+        <span class="hab-divider__diamond"></span>
+      </span>
+      <span class="hab-divider__line"></span>
+    </div>
+
+    <!-- REVIEWS -->
+    <section class="hab-section" id="reviews">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Reviews</p>
+          <h2 class="hab-section__title">What our guests say.</h2>
+        </header>
+        <div class="hab-reviews-overview hab-reveal" data-delay="60">
+          <div class="hab-reviews-summary">
+            <div class="hab-reviews-average">4.8</div>
+            <div class="hab-reviews-stars">â˜…â˜…â˜…â˜…â˜…</div>
+            <div class="hab-reviews-count">Based on 127 reviews</div>
+          </div>
+        </div>
+        <div class="hab-reviews-list hab-reveal" data-delay="120" id="habReviewsList">
+          <div class="hab-review-card">
+            <div class="hab-review-header">
+              <div class="hab-review-avatar">M</div>
+              <div class="hab-review-meta">
+                <span class="hab-review-name">Marta K.</span>
+                <span class="hab-review-date">June 2026</span>
+              </div>
+              <div class="hab-review-rating">â˜…â˜…â˜…â˜…â˜…</div>
+            </div>
+            <p class="hab-review-text">"This is not just a restaurant â€” it's a journey through Addis Ababa's history. The Kikil broth transported me to my grandmother's kitchen. The atmosphere is unmatched."</p>
+            <div class="hab-review-categories">
+              <span class="hab-review-cat">Food: 5/5</span>
+              <span class="hab-review-cat">Atmosphere: 5/5</span>
+              <span class="hab-review-cat">Service: 5/5</span>
+            </div>
+          </div>
+          <div class="hab-review-card">
+            <div class="hab-review-header">
+              <div class="hab-review-avatar">D</div>
+              <div class="hab-review-meta">
+                <span class="hab-review-name">David T.</span>
+                <span class="hab-review-date">May 2026</span>
+              </div>
+              <div class="hab-review-rating">â˜…â˜…â˜…â˜…â˜…</div>
+            </div>
+            <p class="hab-review-text">"As an international tourist, I was looking for an authentic Ethiopian experience. tsgereda delivered beyond expectations. The building itself is a work of art, and the Key Wot is the best I've had in Ethiopia."</p>
+            <div class="hab-review-categories">
+              <span class="hab-review-cat">Authenticity: 5/5</span>
+              <span class="hab-review-cat">Food: 5/5</span>
+              <span class="hab-review-cat">History: 5/5</span>
+            </div>
+          </div>
+          <div class="hab-review-card">
+            <div class="hab-review-header">
+              <div class="hab-review-avatar">S</div>
+              <div class="hab-review-meta">
+                <span class="hab-review-name">Sara H.</span>
+                <span class="hab-review-date">April 2026</span>
+              </div>
+              <div class="hab-review-rating">â˜…â˜…â˜…â˜…â˜…</div>
+            </div>
+            <p class="hab-review-text">"I grew up in Piassa and have many memories of this place. Returning as an adult, I can confirm that the family legacy and the quality of food have only improved. A true gem."</p>
+            <div class="hab-review-categories">
+              <span class="hab-review-cat">Nostalgia: 5/5</span>
+              <span class="hab-review-cat">Food: 5/5</span>
+              <span class="hab-review-cat">Family: 5/5</span>
+            </div>
+          </div>
+        </div>
+        <div class="hab-reviews-form-wrapper hab-reveal" data-delay="180">
+          <div class="hab-card">
+            <h3 class="hab-card__title">Leave a Review</h3>
+            <form class="hab-review-form" id="habReviewForm">
+              <div class="hab-field">
+                <label for="reviewName">Your Name</label>
+                <input type="text" id="reviewName" name="name" required />
+              </div>
+              <div class="hab-field">
+                <label for="reviewRating">Rating</label>
+                <select id="reviewRating" name="rating" required>
+                  <option value="5">â˜…â˜…â˜…â˜…â˜… (5)</option>
+                  <option value="4">â˜…â˜…â˜…â˜…â˜† (4)</option>
+                  <option value="3">â˜…â˜…â˜…â˜†â˜† (3)</option>
+                  <option value="2">â˜…â˜…â˜†â˜†â˜† (2)</option>
+                  <option value="1">â˜…â˜†â˜†â˜†â˜† (1)</option>
+                </select>
+              </div>
+              <div class="hab-field field--full">
+                <label for="reviewText">Your Review</label>
+                <textarea id="reviewText" name="text" rows="4" required></textarea>
+              </div>
+              <div class="hab-field field--full">
+                <button type="submit" class="hab-btn hab-btn--primary">Submit Review</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider hab-divider--thick" aria-hidden="true"></div>
+
+    <!-- RESERVATIONS -->
+    <section class="hab-section" id="reservations">
+      <div class="hab-container">
+        <header class="hab-section__head hab-reveal">
+          <p class="hab-eyebrow">Reservations</p>
+          <h2 class="hab-section__title">Reserve your table.</h2>
+        </header>
+        <div class="hab-reservation-wrapper hab-reveal" data-delay="80">
+          <div class="hab-card">
+            <form class="hab-reservation-form" id="habReservationForm">
+              <div class="hab-field">
+                <label for="resName">Full Name</label>
+                <input type="text" id="resName" name="name" required />
+              </div>
+              <div class="hab-field">
+                <label for="resEmail">Email</label>
+                <input type="email" id="resEmail" name="email" required />
+              </div>
+              <div class="hab-field">
+                <label for="resPhone">Phone</label>
+                <input type="tel" id="resPhone" name="phone" />
+              </div>
+              <div class="hab-field">
+                <label for="resDate">Date</label>
+                <input type="date" id="resDate" name="date" required />
+              </div>
+              <div class="hab-field">
+                <label for="resTime">Time</label>
+                <input type="time" id="resTime" name="time" required />
+              </div>
+              <div class="hab-field">
+                <label for="resGuests">Guests</label>
+                <input type="number" id="resGuests" name="guests" min="1" max="50" required />
+              </div>
+              <div class="hab-field field--full">
+                <label for="resNotes">Special Requests</label>
+                <textarea id="resNotes" name="notes" rows="3"></textarea>
+              </div>
+              <div class="hab-field field--full">
+                <button type="submit" class="hab-btn hab-btn--primary">Reserve Table</button>
+                <p class="hab-form-status" id="reservationStatus" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="hab-divider hab-divider--thick" aria-hidden="true"></div>
+
+    <!-- TOURISM / VISIT -->
+    <section class="hab-section" id="visit">
+      <div class="hab-container">
+        <div class="hab-visit-grid">
+          <div class="hab-visit-info hab-reveal">
+            <p class="hab-eyebrow">Plan Your Visit</p>
+            <h2 class="hab-section__title">Come experience a living memory.</h2>
+            <p class="hab-visit-desc">
+              tsgereda Hotel is more than a destination â€” it's a cultural landmark of old Addis Ababa. Whether you're an international tourist seeking authentic Ethiopian experiences or a local visitor rediscovering the flavors of Piassa, we welcome you with open arms.
+            </p>
+            <ul class="hab-visit-list">
+              <li>âœ… Free visits for tourists</li>
+              <li>âœ… Free visits for children</li>
+              <li>âœ… Historical significance and cultural importance</li>
+              <li>âœ… Authentic Habesha hospitality</li>
+              <li>âœ… Parking for 15+ vehicles</li>
+            </ul>
+            <div class="hab-visit-actions">
+              <a href="#gallery" class="hab-btn hab-btn--primary">Explore Gallery</a>
+              <a href="#dining" class="hab-btn hab-btn--ghost">View Menu</a>
+            </div>
+          </div>
+          <div class="hab-map-card hab-reveal" data-delay="80">
+            <div class="hab-map-placeholder">
+              <div class="hab-map-icon">ðŸ“</div>
+              <p class="hab-map-text">Piassa, Addis Ababa<br />Ethiopia</p>
+            </div>
+            <div class="hab-map-details">
+              <div class="hab-map-detail">
+                <strong>Nearby</strong>
+                <span>Beside Itegue Taytu Hotel</span>
+              </div>
+              <div class="hab-map-detail">
+                <strong>Landmark</strong>
+                <span>Historic Piassa district</span>
+              </div>
+              <div class="hab-map-detail">
+                <strong>Parking</strong>
+                <span>15+ vehicles capacity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="hab-footer">
+    <div class="hab-container hab-footer__inner">
+      <p>&copy; <span id="habYear"></span> tsgereda Hotel. A Living Memory of Piassa.</p>
+      <nav class="hab-footer__links" aria-label="Footer">
+        <a href="#story">Story</a>
+        <a href="#history">History</a>
+        <a href="#dining">Dining</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

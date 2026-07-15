@@ -944,18 +944,27 @@ button { font-family: inherit; cursor: pointer; }
 .hab-facilities-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
 .hab-facility-card {
   text-align: center;
-  padding: 28px 20px;
+  padding: 0;
   background: var(--hab-cream);
   border: 1px solid rgba(92, 61, 46, 0.12);
   border-radius: var(--hab-radius);
   transition: transform var(--hab-duration) var(--hab-ease), box-shadow var(--hab-duration) var(--hab-ease);
   position: relative;
+  overflow: hidden;
 }
 .hab-facility-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--hab-shadow-gold);
 }
 .hab-facility-card--new { border-color: var(--hab-gold); }
+.hab-facility-media {
+  width: 100%;
+  aspect-ratio: 16/10;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--hab-radius-sm) var(--hab-radius-sm) 0 0;
+  margin-bottom: 16px;
+}
 .hab-facility-icon {
   font-size: 2.5rem;
   margin-bottom: 12px;
@@ -966,12 +975,27 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 1.05rem;
   font-weight: 600;
   margin: 0 0 6px;
+  padding: 0 16px;
 }
 .hab-facility-desc {
   color: var(--hab-text-secondary);
   font-size: 0.85rem;
   margin: 0;
   line-height: 1.5;
+  padding: 0 16px 20px;
+}
+.hab-facility-badge {
+  display: inline-block;
+  margin: 0 16px 20px;
+  padding: 4px 12px;
+  background: var(--hab-gold-soft, rgba(212, 175, 55, 0.15));
+  color: var(--hab-gold-dark);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: var(--hab-radius-pill);
+  font-family: var(--hab-font-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 .hab-facility-badge {
   display: inline-block;

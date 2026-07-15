@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="48" fill="#9E1B2C"/>
+  <path d="M50 25 C45 35, 35 40, 50 55 C65 40, 55 35, 50 25Z" fill="#D4AF37"/>
+  <circle cx="50" cy="50" r="6" fill="#D4AF37"/>
+  <path d="M50 55 L50 75" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+  <path d="M45 65 L50 70 L55 65" stroke="#D4AF37" stroke-width="2" fill="none"/>
+  <text x="50" y="88" text-anchor="middle" fill="#D4AF37" font-family="Georgia, serif" font-size="8" font-weight="bold">tsgereda</text>
+</svg>
